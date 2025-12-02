@@ -20,6 +20,9 @@ import java.util.Arrays;
  * Tipps:
  * - Um ein Array zu redimensionieren, verwende den Befehl "Arrays.copyOf" aus
  * java.util.Arrays
+ * - Um alle Farben zu durchlaufen, benutze den Code 
+ * for(Rank rank : Rank.values()){
+ * }
  * - Um eine zufällige Ganzzahl in einem gegebenen Bereich zu erzeugen, verwende
  * "rnd.nextInt", wobei "rnd" eine Instanz der Klasse "Random" aus
  * "java.util.Random" bezeichnet
