@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
  * Diese Klasse repräsentiert einen Kartenstapel mit einer variablen Anzahl
  * Karten
- * Sie soll ein Array von Typ Card als Instanzvariable haben,
+ * Sie soll ein Array cards von Typ Card als Instanzvariable haben,
  * - einen Konstruktor Deck(Card[] cards), welches eine Instanz bestehend aus
  * den gegebenen Karten kreiert,
  * - einen Konstruktor Deck(), welcher ein vollständiges Kartenset (4x9 Karten)

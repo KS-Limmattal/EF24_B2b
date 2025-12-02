@@ -1,4 +1,4 @@
-# Übung 3
+# Programmierübung 3
 
 In dieser Übung geht es um den Einsatz von (mehreren) Klassen im Kontext des Jass-Spiels
 (mit Deutsch-Schweizer Karten)
@@ -20,8 +20,8 @@ Nähere Anweisungen finden sich in den einzelnen `.java`-Datei-Vorlagen.
 
 Wer die Hauptfunktionalität implementiert hat, kann sich folgenden Zusätzen widmen:
 
+- Kommentiere den Testcode in der Klasse `Jass` aus.
 - Füge in der Klasse `Deck` eine öffentliche Instanzvariable von Typ `Suit` hinzu, welche für den Trumpf steht
 - Füge darauf in der Klasse `Deck` eine Methode `validCards(Deck played)` hinzu, welche aus `this.cards` die Karten zurückliefert, welche ausgespielt werden können, wenn zuvor die (maximal 3) Karten aus dem Deck `played` gespielt worden sind.
-- Generiere in der Klasse `Jass` einen gültigen Schieber-Jass zwischen 4 Computerspieler, welche jeweils gültige Karten ausspielen
-- Erlaube dem Benutzer mitzuspielen. Die Karten in seiner Hand sollen jeweils angezeigt werden. Der Spieler soll
-per Konsole eingeben, welche Karte er ausspielen möchte. Das Programm darf nur gültige Karten als Eingabe akzeptieren.
+- Generiere in der Klasse `Jass` einen gültigen Schieber-Jass zwischen 4 Computerspielern, welche jeweils gültige Karten ausspielen
+- Erlaube dem Benutzer mitzuspielen. Die Karten in seiner Hand sollen jeweils angezeigt werden. Der Spieler soll per Konsole eingeben, welche Karte er ausspielen möchte. Das Programm darf nur gültige Karten als Eingabe akzeptieren.
