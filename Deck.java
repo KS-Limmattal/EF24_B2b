@@ -12,9 +12,9 @@ import java.util.Arrays;
  * - einen (trivialen) Getter getCards()
  * - eine Methode addCard(Card card), welche zum Deck eine Karte hinzufügt,
  * falls diese noch nicht im Deck enthalten ist und andernfalls eine Warnung auf
- * der Konsole ausgibt
+ * der Konsole ausgibt-
  * - eine Methode pop(), welche die letzte Karte im Array aus dem Deck entfernt,
- * sofern Karten vorhanden sind
+ * sofern Karten vorhanden sind, und sie zurückgibt.
  * - eine Methode shuffle(), welche die Karten im Array durchmischt
  * 
  * Tipps:
